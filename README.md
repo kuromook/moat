@@ -1,3 +1,5 @@
+**English** | [日本語](README.ja.md)
+
 # Moat
 
 **Fill the outer moat before you report the number.**
