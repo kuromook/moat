@@ -1,0 +1,20 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "moat",
+  "description": "Measurement discipline for agents doing research: make a result refusable before reporting it.",
+  "owner": {
+    "name": "kuromook"
+  },
+  "plugins": [
+    {
+      "name": "moat",
+      "description": "Keeps an agent's measurements refusable: register the bars before looking, anchor one cell outside the pipeline, implement one negative control per named error, and never let a number travel without its quantity, its configuration and its bar.",
+      "author": {
+        "name": "kuromook"
+      },
+      "source": "./plugins/moat",
+      "category": "productivity",
+      "homepage": "https://github.com/kuromook/moat"
+    }
+  ]
+}

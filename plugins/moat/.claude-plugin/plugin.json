@@ -1,0 +1,8 @@
+{
+  "name": "moat",
+  "version": "0.1.0",
+  "description": "Measurement discipline for agents doing research: make a result refusable before reporting it.",
+  "author": {
+    "name": "kuromook"
+  }
+}
