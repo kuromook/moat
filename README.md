@@ -2,11 +2,32 @@
 
 # Moat
 
-**Fill the outer moat before you report the number.**
+**Dig the moat before you report the number.**
 
-A skill set for AI coding agents doing *research* rather than shipping: work
-whose output is a claim about a measurement. It keeps the agent from handing you
-a number you cannot refuse.
+## What actually happened
+
+A method was handed the target's own total count and asked to do one thing:
+place it. It scored 0.162. Its negative control -- the same prediction scored
+against the *next* item's target -- scored 0.062, so the method is clearly
+ahead. Normally you report that it has learned where things go.
+
+Then: **transposing its output cost 0.001, and shifting it 50 pixels cost
+0.0003.** Two transforms that destroy location do not move the score. The
+method knows nothing about location; the overlap was *amount*.
+
+With only the off-by-one control, that result gets published.
+
+## Who this is for
+
+People who run experiments and then act on the numbers: building a benchmark,
+choosing a metric, scoring a model or a pipeline, writing up a result, deciding
+what a figure means. This keeps an agent honest while it does that work for you.
+
+It is **not** for feature work or UI. One test decides: *if the result came out
+the other way, would anything I say change?* If nothing would, this is not the
+skill for that task.
+
+## Why it is needed
 
 Most of the cost of research is not computing the result. It is the work that
 makes the result refusable — the control that would have exposed it, the cell
@@ -67,6 +88,13 @@ project, or point the agent at it as a skill.
   is whether anything you say would change if the result came out the other way.
 - **Not a statistics library.** It never computes the number for you. It decides
   what has to exist before the number is allowed to mean something.
+
+## Where the name comes from
+
+From the Japanese phrase *soto-bori o umeru*, "fill in the outer moat": the
+groundwork you do around a problem before attacking it directly. Filling a moat
+is literally what a besieger does to someone else's defenses, though, so the
+slogan here is the other verb. The thing being defended is your own conclusion.
 
 ## Where it comes from
 
