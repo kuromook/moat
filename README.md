@@ -6,10 +6,11 @@
 
 ## What actually happened
 
-A method was handed the target's own total count and asked to do one thing:
-place it. It scored 0.162. Its negative control -- the same prediction scored
-against the *next* item's target -- scored 0.062, so the method is clearly
-ahead. Normally you report that it has learned where things go.
+A method was handed the target's own total count -- how many pixels it should
+mark -- and asked to do one thing: place them. It scored 0.162. Its negative
+control, the same prediction scored against the *next* item's target, scored
+0.062, so the method is clearly ahead. Normally you report that it has learned
+where things go.
 
 Then: **transposing its output cost 0.001, and shifting it 50 pixels cost
 0.0003.** Two transforms that destroy location do not move the score. The
