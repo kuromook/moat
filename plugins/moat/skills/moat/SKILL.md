@@ -103,6 +103,43 @@ as chores:
   dominates the mass. Recompute it over the part you meant, especially before
   comparing two window sizes, two resolutions, or two sources.
 
+## Provisional: selection
+
+These three are **held apart from the ten rules on purpose.** They came from one
+corpus in one week, they look like instrument design, and they may instead be a
+property of that material. Read them as proposals that name their own dependency,
+and move one up only when a second body of data, from another domain and another
+upstream owner, has produced the same loss.
+
+11. **Selection is a measurement: print what you dropped, by reason.** This
+    includes the `continue` inside the instrument. A filter that reports only
+    what survived has published a number about a population nobody can name, and
+    the per-reason count is the whole point: reasons do not add up, because one
+    of them is usually "working as designed" and the next one is lost material.
+    A population named by what it kept cannot be reconstructed afterwards from
+    what remains.
+12. **Re-derive every constant for its own role.** A threshold borrowed from a
+    neighbouring role is not merely uncalibrated: it can remove one entire kind
+    of material in silence, because the kind it removes is the kind the other
+    role never had. A constant in absolute units is a different constant at
+    another scale -- the same floor in pixels is two floors on two resolutions
+    of one item.
+13. **Produce the null value before you draw the bar.** A bar below the null
+    cannot fail, and a bar the control passes on its own has already been
+    reported as a result somewhere. A high null is first a reason to suspect the
+    standard, not evidence that the task is hard. (This is rule 1 read from the
+    other end; only the last sentence is new, which is why it is the least
+    provisional of the three.)
+
+**What they depend on.** All three assume the material arrived through *someone
+else's* selection -- an upstream instrument built for a different purpose, whose
+rule is not in the data and not recoverable from it. Where the data was collected
+for the question being asked, 11 degenerates into bookkeeping and 12 into
+ordinary unit discipline. **What would kill them**: finding that the whole cost
+was carried by the upstream rule being undocumented. Then the rule is *get the
+upstream rule in writing before measuring against its output*, and it is one
+line, not three.
+
 ## Tools
 
 `references/incidents.md` holds the incidents these rules were paid for, each

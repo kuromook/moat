@@ -36,6 +36,12 @@ Then check each proposal against the three ways a control is born useless:
    that has no location information at all, because re-pairing destroys only the
    between-item differences in amount. Pair it with a location-destroying
    transform, and treat "the transform cost nothing" as the finding it is.
+4. **It is scored on a different population.** A control that silently skips
+   the cases it cannot construct -- no room to place the object, no valid pairing
+   -- is measured on the subset where construction succeeded, and that subset is
+   normally biased along the quantity of interest: the largest objects are
+   exactly the ones that cannot be moved. Drop those cases from the arm as well,
+   print how many, and say what they had in common.
 
 Report every control's score **above** the primary, each with the error it
 implements and its registered bar. Say which arms are therefore not read.

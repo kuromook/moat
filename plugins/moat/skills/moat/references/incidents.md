@@ -76,3 +76,32 @@ believe.
   the rule that applied. Documentation past a certain volume degrades rather
   than helps, which is why the rule set is short and each rule names its
   incident.
+
+## Selection is a measurement (provisional)
+
+- A dataset's images had been built by an upstream tool that kept only one kind
+  of material. Measured against the source documents, **37% of the ink was
+  absent**, and every result that had used those images as ground truth was
+  scoring against a different page. Once the upstream rule was obtained in
+  writing, the 37% split three ways: material the tool was never meant to carry,
+  one ambiguous name that the source's authors used for two different roles, and
+  **4.7% that was genuine loss**. The defect was an eighth of the alarming
+  number -- and the alarming number had been in a ledger for a day, where it was
+  being read as a defect rate.
+- A control arm placed each object at a random position inside its container and
+  silently skipped the objects it could not place. The arm was scored on 625 and
+  938 objects, the control on 608 and 919. Every object larger than half its
+  container was missing from the control, because large objects cannot be moved:
+  the omission was biased along the quantity being measured.
+- A filter on a width statistic, borrowed from a neighbouring role, removed one
+  whole category of material. The constant had been measured on copies downscaled
+  to a fixed long edge and was being applied at native resolution, where the same
+  number means a different width.
+- A bar was drawn at a level the null value already cleared -- the shuffled
+  control alone scored above it in one of the two pools -- so a pass by the arm
+  would have been unreadable either way. The next registration computed the null
+  first and placed the bar above it before any arm ran.
+
+**All four come from one corpus and one week.** That is why they sit in a
+provisional section instead of among the ten rules: two witnesses on the same
+material are one witness about data of that kind.
